@@ -1,0 +1,60 @@
+# Copyright (C) 2024 MOULIN Mathieu <mathieu@iprospective.fr>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleMMIWildxName'
+ModuleMMIWildxName = Connecteur Wildx
+# Module description 'ModuleMMIWildxDesc'
+ModuleMMIWildxDesc = Historique des appels, etc.
+
+#
+# Admin page
+#
+MMIWildxSetup = MMIWildx setup
+Settings = Settings
+MMIWildxSetupPage = MMIWildx setup page
+MMI_WILDX_HOST = Serveur (hostname)
+MMI_WILDX_APP_ID = App ID
+MMI_WILDX_APP_NAME = App Name
+MMI_WILDX_SECRET_KEY = Secret Key
+
+#
+# About page
+#
+About = About
+MMIWildxAbout = About MMIWildx
+MMIWildxAboutPage = MMIWildx about page
+
+#
+# Sample page
+#
+MMIWildxArea = Home MMIWildx
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
+
+#
+# Extrafields
+#
+Extrafield_tel_internal = Téléphone interne
+ExtrafieldToolTip_tel_internal = Numéro de téléphone interne raccourci, pour le connecteur WildX
+Extrafield_wildx_id = ID Synchro Wildx

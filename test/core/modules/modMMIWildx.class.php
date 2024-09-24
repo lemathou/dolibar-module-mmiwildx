@@ -456,9 +456,6 @@ class modMMIWildx extends DolibarrModules
 		// User
         $extrafields->addExtraField('tel_internal', $langs->trans('Extrafield_tel_internal'), 'varchar', 90, '16', 'user', 0, 0, '', "", 1, '', -1, $langs->trans('ExtrafieldToolTip_tel_internal'), '', $conf->entity, 'mmiwildx@mmiwildx', '$conf->mmiwildx->enabled');
 
-		// Actioncomm
-        $extrafields->addExtraField('wildx_id', $langs->trans('Extrafield_wildx_id'), 'int', 90, '16', 'actioncomm', 0, 0, '', "", 1, '', -1, $langs->trans('ExtrafieldToolTip_wildx_id'), '', $conf->entity, 'mmiwildx@mmiwildx', '$conf->mmiwildx->enabled');
-
 		// Permissions
 		$this->remove($options);
 

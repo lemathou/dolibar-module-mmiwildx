@@ -1,0 +1,5 @@
+{
+    "require": {
+        "wildix/s2s-client-php": "^2.0"
+    }
+}
